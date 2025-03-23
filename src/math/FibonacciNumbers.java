@@ -3,7 +3,7 @@ package math;
 public class FibonacciNumbers {
     public static void main(String[] args) {
          int num=2;
-        System.out.print("Print First 5 Fibonacci Numbers: ");
+        System.out.print("Print First "  + num +  " Fibonacci Numbers: ");
         fibonacci(num);
     }
     static void fibonacci(int n){
