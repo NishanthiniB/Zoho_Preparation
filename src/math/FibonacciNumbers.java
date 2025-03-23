@@ -11,9 +11,7 @@ public class FibonacciNumbers {
             return;
         }
         int[] fibNum = new int[n];
-        if(n>=1){
-            fibNum[0]=0;
-        }
+        fibNum[0] = 0;
         if(n>=2){
             fibNum[1]=1;
         }
